@@ -243,3 +243,11 @@ nav {
 .menu-card > h3 {
   margin-bottom: 16px;
 }
+
+.menu-card:hover {
+  background-color: var(--primary);
+}
+
+.menu-card:hover > * {
+  color: var(--white);
+}
