@@ -60,6 +60,10 @@
   background-color: var(--dark-50);
 }
 
+.bg-dark {
+  background-color: var(--dark);
+}
+
 .bg-brown {
   background-color: var(--brown);
 }
@@ -70,6 +74,10 @@
 
 .bg-white {
   background-color: var(--white);
+}
+
+.bg-light {
+  background-color: var(--light);
 }
 
 .mb-30 {
@@ -308,4 +316,23 @@ p {
 
 .float-right {
   float: right;
+}
+
+.subscription {
+  height: 82px;
+
+  padding: 55px;
+
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.contacts {
+  margin-top: 60px;
+
+  text-align: center;
+}
+
+.txt-subscription {
+  font: 400 34px/40px "Neucha", cursive;
 }
