@@ -112,6 +112,7 @@ h3 {
   margin: 0;
   padding: 0;
 
+  color: var(--primary);
   font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
@@ -276,6 +277,10 @@ p {
 
 .running-title {
   font: 400 24px/29px "Neucha", cursive;
+}
+
+.content-heading {
+  font-weight: 400;
 }
 
 .txt-description {
