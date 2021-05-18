@@ -32,12 +32,24 @@
   color: var(--dark);
 }
 
+.txt-dark-50 {
+  color: var(--dark-50);
+}
+
 .txt-primary {
   color: var(--primary);
 }
 
+.txt-brown {
+  color: var(--brown);
+}
+
 .txt-white {
   color: var(--white);
+}
+
+.txt-white-50 {
+  color: var(--white-50);
 }
 
 .txt-center {
@@ -62,6 +74,10 @@
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.mt-200 {
+  margin-top: 200px;
 }
 
 .pt-100 {
@@ -142,7 +158,7 @@ footer {
   z-index: 2;
 }
 
-.main-pic {
+.main-img {
   position: absolute;
   top: -45px;
   right: -270px;
@@ -178,8 +194,6 @@ p {
 }
 
 .column-content {
-  margin-top: 200px;
-
   column-count: 2;
   column-gap: 30px;
 }
@@ -201,15 +215,13 @@ p {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-nav {
+.section-menu {
+  padding-bottom: 80px;
+
   background-color: var(--primary-dark);
 }
 
-.section-menu {
-  padding-bottom: 80px;
-}
-
-#navigation {
+.section-menu .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -250,4 +262,39 @@ nav {
 
 .menu-card:hover > * {
   color: var(--white);
+}
+
+.content-img {
+  margin-right: 30px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.running-title {
+  font: 400 24px/29px "Neucha", cursive;
+}
+
+.txt-description {
+  font: 400 34px/41px "Neucha", cursive;
+}
+
+.txt-description::after {
+  display: block;
+  clear: both;
+
+  content: "";
+}
+
+.manifestation {
+  margin: 100px 0 20px 0;
+  padding: 5px 10px;
+  font: 700 14px/17px "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
