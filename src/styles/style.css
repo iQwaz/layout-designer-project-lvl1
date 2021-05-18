@@ -80,8 +80,20 @@
   margin-top: 200px;
 }
 
+.mr-30 {
+  margin-right: 30px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
 .pt-100 {
   padding-top: 100px;
+}
+
+.img-shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 body {
@@ -211,8 +223,6 @@ p {
 
   display: block;
   margin: 0 auto;
-
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .section-menu {
@@ -264,11 +274,6 @@ p {
   color: var(--white);
 }
 
-.content-img {
-  margin-right: 30px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
 .running-title {
   font: 400 24px/29px "Neucha", cursive;
 }
@@ -287,6 +292,7 @@ p {
 .manifestation {
   margin: 100px 0 20px 0;
   padding: 5px 10px;
+
   font: 700 14px/17px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
