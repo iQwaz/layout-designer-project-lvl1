@@ -242,13 +242,12 @@ main * .column-content {
 
 .video {
   position: absolute;
-  left: 96px;
   top: 229px;
+  left: 96px;
 
   z-index: 3;
 
   display: block;
-
 }
 
 .section-menu {
