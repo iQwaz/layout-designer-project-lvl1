@@ -220,11 +220,15 @@ p {
 }
 
 .column-content {
-  max-height: 200px;
+  max-height: 175px;
 
   column-count: 2;
   column-fill: balance;
   column-gap: 30px;
+}
+
+main * .column-content {
+  max-height: 154px;
 }
 
 .section-video {
@@ -336,10 +340,14 @@ p {
 }
 
 .contacts {
-  margin-top: 60px;
+  margin-top: 75px;
 
   font: 400 14px/1.6 "Open Sans", sans-serif;
   text-align: center;
+}
+
+.contacts p {
+  margin-top: 18px;
 }
 
 .contacts a {
