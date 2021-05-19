@@ -220,7 +220,10 @@ p {
 }
 
 .column-content {
+  max-height: 200px;
+
   column-count: 2;
+  column-fill: balance;
   column-gap: 30px;
 }
 
