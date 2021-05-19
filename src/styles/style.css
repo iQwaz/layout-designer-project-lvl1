@@ -345,29 +345,34 @@ p {
 
 .txt-subscription {
   margin: 55px 0;
+
   font: 400 34px/40px "Neucha", cursive;
 }
 
 .input-email {
-  margin: 0;
-  padding: 0 15px;
+  flex-grow: 2;
 
   height: 50px;
-  color: #757575;
-  font: 400 13px/1.6 "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0 15px;
   border: 0;
-  flex-grow: 2;
+
+  color: #757575;
+
+  font: 400 13px/1.6 "Open Sans", sans-serif;
 }
 
 .footer-label {
   height: 28px;
   padding-bottom: 9px;
+
   color: var(--white);
   font: 400 18px/1.6 "Open Sans", sans-serif;
 }
 
 .btn-send {
   position: relative;
+
   width: 70px;
   height: 50px;
 }
@@ -381,15 +386,16 @@ p {
   width: 24px;
   height: 24px;
 
+  background: no-repeat center/cover url("../assets/images/send.svg");
+
   content: "";
-  background: no-repeat center/cover url("../assets/images/send.svg");;
 }
 
 .flex-form {
   display: flex;
-  height: 100%;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
 }
 
 .flex-container {
@@ -398,14 +404,14 @@ p {
 }
 
 .subscription-agreement {
-  padding-top: 3px;
   height: 22px;
-  color: var(--white);
-  font: 400 12px/1.6 "Open Sans", sans-serif
+  padding-top: 3px;
 
+  color: var(--white);
+  font: 400 12px/1.6 "Open Sans", sans-serif;
 }
 
-.subscription-agreement a{
+.subscription-agreement a {
   color: var(--white);
 }
 
