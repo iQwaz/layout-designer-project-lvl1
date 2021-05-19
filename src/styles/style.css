@@ -13,19 +13,19 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url(../assets/fonts/OpenSans-Regular.ttf);
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url(../assets/fonts/OpenSans-Bold.ttf);
+  src: url("../assets/fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Neucha";
-  src: url(../assets/fonts/Neucha-Regular.ttf);
+  src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
 .txt-dark {
@@ -168,7 +168,7 @@ footer {
   width: 100%;
   height: 100%;
 
-  background: no-repeat top/cover url(../assets/images/background.png);
+  background: no-repeat top/cover url("../assets/images/background.png");
   opacity: 10%;
 
   content: "";
@@ -196,8 +196,8 @@ p {
 }
 
 .btn {
-  margin: 30px 0 0 570px;
-  padding: 12px 24px;
+  margin: 0;
+  padding: 0;
   border: 0;
 
   color: var(--white);
@@ -212,6 +212,11 @@ p {
 
 .btn:hover {
   background-color: #ea7600;
+}
+
+.btn-more {
+  margin: 30px 0 0 570px;
+  padding: 12px 24px;
 }
 
 .column-content {
@@ -319,9 +324,9 @@ p {
 }
 
 .subscription {
-  height: 82px;
+  height: 190px;
 
-  padding: 55px;
+  padding: 0 55px;
 
   column-count: 2;
   column-gap: 30px;
@@ -330,9 +335,80 @@ p {
 .contacts {
   margin-top: 60px;
 
+  font: 400 14px/1.6 "Open Sans", sans-serif;
   text-align: center;
 }
 
+.contacts a {
+  color: var(--blue);
+}
+
 .txt-subscription {
+  margin: 55px 0;
   font: 400 34px/40px "Neucha", cursive;
+}
+
+.input-email {
+  margin: 0;
+  padding: 0 15px;
+
+  height: 50px;
+  color: #757575;
+  font: 400 13px/1.6 "Open Sans", sans-serif;
+  border: 0;
+  flex-grow: 2;
+}
+
+.footer-label {
+  height: 28px;
+  padding-bottom: 9px;
+  color: var(--white);
+  font: 400 18px/1.6 "Open Sans", sans-serif;
+}
+
+.btn-send {
+  position: relative;
+  width: 70px;
+  height: 50px;
+}
+
+.btn-send::before {
+  position: absolute;
+  top: 13px;
+  left: 23px;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  content: "";
+  background: no-repeat center/cover url("../assets/images/send.svg");;
+}
+
+.flex-form {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: 0;
+}
+
+.subscription-agreement {
+  padding-top: 3px;
+  height: 22px;
+  color: var(--white);
+  font: 400 12px/1.6 "Open Sans", sans-serif
+
+}
+
+.subscription-agreement a{
+  color: var(--white);
+}
+
+.subscription-agreement a:hover {
+  color: var(--white-50);
 }
