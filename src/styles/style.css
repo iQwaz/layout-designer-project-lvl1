@@ -60,6 +60,10 @@
   background-color: var(--dark-50);
 }
 
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+
 .bg-dark {
   background-color: var(--dark);
 }
