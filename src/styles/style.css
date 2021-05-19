@@ -224,7 +224,7 @@ p {
 }
 
 .column-content {
-  max-height: 175px;
+  max-height: 177px;
 
   column-count: 2;
   column-fill: balance;
@@ -236,18 +236,19 @@ main * .column-content {
 }
 
 .section-video {
-  height: 607px;
+  height: 605px;
   overflow: visible;
 }
 
 .video {
   position: absolute;
-  right: 0;
-  left: 0;
+  left: 96px;
+  top: 229px;
+
   z-index: 3;
 
   display: block;
-  margin: 0 auto;
+
 }
 
 .section-menu {
