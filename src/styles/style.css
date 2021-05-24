@@ -199,6 +199,10 @@ p {
   break-inside: avoid;
 }
 
+header * p:last-of-type {
+  margin-bottom: 0;
+}
+
 .btn {
   margin: 0;
   padding: 0;
@@ -219,7 +223,7 @@ p {
 }
 
 .btn-more {
-  margin: 30px 0 0 570px;
+  margin: 40px 0 0 570px;
   padding: 12px 24px;
 }
 
