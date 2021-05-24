@@ -224,24 +224,14 @@ p {
 }
 
 .column-content {
-  /* Ограничение по высоте для header
-  max-height: 177px;
-  */
-
   column-count: 2;
   column-fill: balance;
   column-gap: 30px;
+  break-inside: avoid;
 }
 
-/* Ограничение по высоте для колонок в main
-main * .column-content {
-  max-height: 154px;
-}
-*/
-
-/* Ограничение по высоте для ikea-effect */
-#ikea-effect * .column-content {
-  max-height: 154px;
+.break-after {
+  break-after: column;
 }
 
 .section-video {
