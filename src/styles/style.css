@@ -199,8 +199,8 @@ p {
   break-inside: avoid;
 }
 
-header * p:last-of-type {
-  margin-bottom: 0;
+.contacts p {
+  margin-top: 18px;
 }
 
 .btn {
@@ -223,7 +223,7 @@ header * p:last-of-type {
 }
 
 .btn-more {
-  margin: 40px 0 0 570px;
+  margin: 30px 0 0 570px;
   padding: 12px 24px;
 }
 
@@ -351,10 +351,6 @@ header * p:last-of-type {
 
   font: 400 14px/1.6 "Open Sans", sans-serif;
   text-align: center;
-}
-
-.contacts p {
-  margin-top: 18px;
 }
 
 .contacts a {
