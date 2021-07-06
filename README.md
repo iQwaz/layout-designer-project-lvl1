@@ -1,6 +1,6 @@
-# My first project as a layout designer on Hexlet.io
+# My first project of Layout Designer profession on Hexlet.io
 
-It needs to create and publish my first layout. In this progect I apply knowledge learned in the course. Use positioning and face the basic challenges that Flex does.
+It needs to create and publish my first layout. In this project I apply knowledges learned in the course. Use positioning and face the basic challenges that Flex does.
 
 Task description: <https://ru.hexlet.io/programs/layout-designer/projects/58>
 
